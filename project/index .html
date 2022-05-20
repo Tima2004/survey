@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>survey</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo"><img src="./photos/logo.png"></div>
+      <div class="header__search">
+        <div class="header__input"><input type="text" placeholder="Search"></input><div><img class="lupa" src="./photos/lupa.png"></div></div>
+        <div class="header__ring"><div><img src="./photos/ring.png"></div></div>
+      </div>
+      <div class="header__profile">
+        <div class="header__strelka"></div>
+        <div class="header__avatar"></div>
+        <div class="header__name"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="side__bar">
+       <div class="side__content">
+         <div class="side__select">
+            <div class="side__title">Question type</div>
+         <div class="side__input">
+           <select name="select">
+              <option value="Quiz">Quiz</option>
+          </select>
+         </div>
+         <div class="side__title">Time limit</div>
+         <div class="side__input">
+           <select name="select">
+              <option value="Time limit">Time limit</option>
+          </select>
+         </div>
+         <div class="side__title">Points</div>
+         <div class="side__input">
+           <select name="select">
+              <option value="Points">Points</option>
+          </select>
+         </div>
+         </div>
+       </div> 
+    </div>
+    <div class="right__bar">
+      <div class="right__content">
+        <div class="trash"><img src="./photos/trash.png"></div>
+        <div class="button">Publish</div>
+      </div>
+    </div>
+    <div class="main__container">
+      <div class="main__title">
+        <div class="sur">Survey <hr></div>
+        <div class="anw">Answers</div>
+      </div>
+      <div class="main__quest"><div class="aa">Question</div></div>
+      <div class="main__add"><div class="plus">+</div></div>
+      <div class="main__choose">
+        <div class="arbox">
+          <div class="arr">
+          <div>A</div>
+          <input type="checkbox"></input>
+        </div>
+        <div class="arr">
+          <div>B</div>
+          <input type="checkbox"></input>
+        </div>
+        </div>
+     <div class="arbox">
+          <div class="arr">
+          <div>C</div>
+          <input type="checkbox"></input>
+        </div>
+        <div class="arr">
+          <div>D</div>
+          <input type="checkbox"></input>
+        </div>
+        </div>
+   
+      
+      </div>
+      <div class="main__adds">
+        <div class="adds__blocks">
+          <div class="block"></div>
+          <div class="block">+</div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
